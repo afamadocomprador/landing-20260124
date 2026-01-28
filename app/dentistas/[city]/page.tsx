@@ -183,7 +183,7 @@ async function getPageData(slug: string) {
       const professionalsList = Array.from(center.professionalsMap.values()).map((p: any) => ({
           name: p.name,
           nif: p.nif,
-          specialties: Array.from(p.specialties).sort()
+          specialties: (Array.from(p.specialties) as string[]).sort()
       }));
 
       return {
@@ -314,3 +314,4 @@ export default async function LocalDentistPage({ params }: { params: { city: str
   );
 
 }
+
