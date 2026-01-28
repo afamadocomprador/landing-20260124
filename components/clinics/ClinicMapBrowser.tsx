@@ -262,7 +262,8 @@ export default function ClinicMapBrowser({ clinics, defaultCenter }: ClinicMapBr
             {clinics.map((clinic) => (
                 <div 
                 key={clinic.sp_id}
-                ref={(el) => (itemRefs.current[clinic.sp_id] = el)}
+                // BIEN (Las llaves indican que es una acción sin retorno)
+                ref={(el) => { itemRefs.current[clinic.sp_id] = el; }}
                 onClick={() => handleInteraction(clinic, 'list')}
                 className={`
                     p-4 rounded-xl border transition-all duration-300 cursor-pointer relative overflow-hidden
@@ -342,4 +343,5 @@ export default function ClinicMapBrowser({ clinics, defaultCenter }: ClinicMapBr
 
     </div>
   );
+
 }
