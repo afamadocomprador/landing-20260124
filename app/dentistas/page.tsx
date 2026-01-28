@@ -65,7 +65,7 @@ export default function DentistsDirectoryPage() {
             </div>
             
             <div className="text-center mt-12">
-              <Button variant="outline" className="border-dkv-gray text-dkv-gray hover:bg-dkv-gray hover:text-white">
+              <Button className="border-dkv-gray text-dkv-gray hover:bg-dkv-gray hover:text-white px-6 py-2 rounded-full transition-colors border">
                 Ver todas las provincias
               </Button>
             </div>
@@ -76,4 +76,5 @@ export default function DentistsDirectoryPage() {
       <FooterLegal />
     </div>
   );
+
 }
