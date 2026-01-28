@@ -21,7 +21,8 @@ const LeadForm = () => {
   
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [errorMessage, setErrorMessage] = useState('');
-  const [errors, setErrors] = useState<Partial<LeadFormData>>({});
+  
+  const [errors, setErrors] = useState<{ [key: string]: string }>({});  
   
   const [currentUrl, setCurrentUrl] = useState('');
   const [landingSlug, setLandingSlug] = useState('');
@@ -46,7 +47,7 @@ const LeadForm = () => {
   };
 
   const validate = (): boolean => {
-    const newErrors: Partial<LeadFormData> = {};
+    const newErrors: { [key: string]: string } = {};
     if (formData.nombre.trim().length < 3) newErrors.nombre = "Nombre completo requerido";
     if (!/^[6789]\d{8}$/.test(formData.telefono.replace(/\s/g, ''))) newErrors.telefono = "Móvil válido";
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) newErrors.email = "Email inválido";
@@ -217,5 +218,6 @@ const LeadForm = () => {
     </div>
   );
 };
+
 
 export default LeadForm;
