@@ -1,0 +1,266 @@
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.439479288ee64d19",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-439479288ee64d19-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":0,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.d0f99a2bc37242bc",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-d0f99a2bc37242bc-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":999,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.d0f99a2bc37242bc",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-d0f99a2bc37242bc-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":1998,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.d0f99a2bc37242bc",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-d0f99a2bc37242bc-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":2997,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.d0f99a2bc37242bc",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-d0f99a2bc37242bc-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":3996,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+
+
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.d0f99a2bc37242bc",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-d0f99a2bc37242bc-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":4995,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.d0f99a2bc37242bc",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-d0f99a2bc37242bc-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":5994,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+
+
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.d0f99a2bc37242bc",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-d0f99a2bc37242bc-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":6993,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+
+
+fetch("https://medicos.dkv.es/semanticSearch/MedicalDirectory?client-id=DKV_PUBLIC_CM", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "es-ES,es;q=0.9",
+    "cache-control": "no-cache",
+    "canonical": "true",
+    "clientid": "22",
+    "content-type": "application/json",
+    "lang": "es",
+    "ofuscatedocumentid": "true",
+    "pragma": "no-cache",
+    "request-context": "appId=cid-v1:bd014cfe-c7be-48f9-af53-5a1910b36a4a",
+    "request-id": "|75220ab54228491eb000e7dacefe6e33.d0f99a2bc37242bc",
+    "sec-ch-ua": "\"Google Chrome\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-75220ab54228491eb000e7dacefe6e33-d0f99a2bc37242bc-01"
+  },
+  "referrer": "https://medicos.dkv.es/resultados/odontologia-general/barcelona",
+  "body": "{\"count\":true,\"filter\":\"(CompanyCod eq 1) and (Networks/any(t: search.in(t, '3'))) \",\"searchMode\":\"all\",\"top\":999,\"skip\":7992,\"orderBy\":[\"MedicalDirectoryId asc\"]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});

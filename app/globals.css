@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* ==========================================================================
+    ESTILOS BASE (MIGRACIÓN V1 + MEJORAS TÉCNICAS V2)
+    ==========================================================================
+  */
+
+  :root {
+    /* Variables CSS nativas para integraciones externas si hicieran falta */
+    --dkv-green: #849700;
+    --dkv-green-dark: #033B37;
+    --dkv-gray: #6A625A;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    /* ESTÉTICA V1: Fuente FS Me, color gris corporativo y fondo blanco */
+    @apply font-fsme text-dkv-gray bg-white antialiased;
+    
+    /* TÉCNICA V2: Evita el scroll horizontal indeseado en móviles 
+       (vital si usamos animaciones de entrada laterales) */
+    overflow-x: hidden; 
+  }
+
+  /* ESTÉTICA V1: Titulares Corporativos (Lemon Milk + Verde Oscuro) */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-lemon text-dkv-green-dark uppercase; 
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl font-bold leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold leading-snug;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl font-bold;
+  }
+
+  /* MEJORA UX (Rescatada de V2): Selección de texto con color de marca 
+     (Actualizado al verde oficial V1: #849700) 
+  */
+  ::selection {
+    background-color: #849700; /* dkv-green */
+    color: white;
+  }
+}
+
+@layer utilities {
+  /* Utilidad para equilibrio de texto en titulares */
+  .text-balance {
+    text-wrap: balance;
+  }
+}

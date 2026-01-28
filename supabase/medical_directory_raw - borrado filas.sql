@@ -1,0 +1,1 @@
+TRUNCATE TABLE medical_directory_raw;

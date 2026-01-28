@@ -1,0 +1,28 @@
+-- CONSULTA PARA CLASIFICACIÓN DE TIERS (GEMA ESTRATEGA)
+-- Esta consulta agrupa por localidad y provincia para obtener el volumen de negocio.
+
+SELECT 
+    town AS "Localidad", 
+    province AS "Provincia", 
+    -- Contamos centros únicos (Service Points)
+    COUNT(DISTINCT sp_id) AS "Número de Centros", 
+    -- Contamos profesionales únicos para saber el volumen de doctores
+    COUNT(DISTINCT professional_nif) AS "Total Dentistas"
+FROM 
+    medical_directory_raw
+WHERE 
+    -- Filtramos registros que no tengan localidad o provincia asignada
+    town IS NOT NULL AND town != ''
+    AND province IS NOT NULL AND province != ''
+    AND professional_nif IS NOT NULL AND professional_nif != ''
+GROUP BY 
+    town, 
+    province
+ORDER BY 
+    "Número de Centros" DESC, 
+    "Total Dentistas" DESC;
+
+-- NOTA PARA GEMA:
+-- Tier 1 sugerido: Localidades con > 15 centros (Grandes capitales)
+-- Tier 2 sugerido: Localidades con 5-15 centros (Ciudades medianas/periferia)
+-- Tier 3 sugerido: Localidades con < 5 centros (Pueblos/Zonas rurales)

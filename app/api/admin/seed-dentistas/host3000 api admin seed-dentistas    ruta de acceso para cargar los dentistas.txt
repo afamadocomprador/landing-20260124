@@ -1,0 +1,7 @@
+se descarga el json tal cual llega de Herramientas de google
+se graba en la carpeta no-public con el nombre de ese fichero .. dentistas.json creo que es (mirarlo)
+
+se accede a esta ruta que inserta todos los dentistas del fichero
+
+http://localhost:3000/api/admin/seed-dentistas
+

@@ -1,0 +1,38 @@
+-- 1. Inserción del Tratamiento Compuesto 'Implante normal'
+-- Primero borramos si existe para evitar duplicados
+DELETE FROM dental_treatments 
+WHERE category = 'Implantología' 
+AND treatment_name = 'Implante normal';
+
+INSERT INTO dental_treatments 
+(
+    hierarchy_code, 
+    category, 
+    subcategory, 
+    group_type, 
+    ordinal_id, 
+    treatment_name, 
+    description_notes, 
+    price_label, 
+    price_value, 
+    is_included, 
+    is_pediatric, 
+    is_exclusive_tech, 
+    is_basic -- FALSE = Es un pack compuesto
+)
+VALUES
+(
+    '10',                      -- Hierarchy Code (Implantología)
+    'Implantología',           -- Category
+    NULL,                      -- Subcategory
+    NULL,                      -- Group Type
+    100,                       -- Ordinal ID (Posición arbitraria al final)
+    'Implante normal',         -- Treatment Name
+    'Pack completo (Implante + Corona + Aditamentos)',   -- Description
+    '0 euros',                 -- Price Label (Se calculará dinámicamente)
+    0,                         -- Price Value
+    false,                     -- Is Included
+    false,                     -- Is Pediatric
+    false,                     -- Is Exclusive Tech
+    false                      -- IS BASIC = FALSE
+);
