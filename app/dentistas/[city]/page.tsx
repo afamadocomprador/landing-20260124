@@ -195,6 +195,7 @@ async function getPageData(slug: string) {
           latitude: center.latitude,
           longitude: center.longitude,
           phone: center.phone,
+          is_dkv_propio: false, // <--- ¡AÑADE ESTA LÍNEA! (Valor por defecto)
           professionals: professionalsList
       };
   });
@@ -311,4 +312,5 @@ export default async function LocalDentistPage({ params }: { params: { city: str
       <FooterLegal />
     </div>
   );
+
 }
